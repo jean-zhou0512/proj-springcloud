@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 public class CustomerController {
 
-    final static String url="http://localhost:8001/";
+    final static String url="http://CLOUD-PAYMENT-SERVICE/";
 
     @Autowired
     private RestTemplate restTemplate;
