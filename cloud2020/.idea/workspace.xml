@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59ac95e-30e5-4388-888c-3103b5fce262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cn/springcloud/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cn/springcloud/utils/result/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/cn/springcloud/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/api/SysApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/service/SysApiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/cn/springcloud/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,14 +54,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1467" />
+          <entry key="java" value="1477" />
+          <entry key="txt" value="3" />
           <entry key="xml" value="859" />
           <entry key="yml" value="277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1467" />
+          <entry key="JAVA" value="1477" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="855" />
           <entry key="YAML" value="277" />
@@ -365,7 +344,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605431779121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605432591052" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springcloud/springcloud-proj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -472,12 +451,20 @@
       <workItem from="1605284304794" duration="10742000" />
       <workItem from="1605338480311" duration="736000" />
       <workItem from="1605406052471" duration="5761000" />
-      <workItem from="1605422743688" duration="5393000" />
+      <workItem from="1605422743688" duration="6289000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1605432166895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605432166895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38002000" />
+    <option name="totallyTimeSpent" value="38898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -536,6 +523,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.IntelliJIdea2019.1/system/log/idea.log" />
