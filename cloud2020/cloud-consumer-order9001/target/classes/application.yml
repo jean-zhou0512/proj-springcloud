@@ -1,0 +1,8 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: cloud-order-service
+  cloud:
+    zookeeper:
+      connect-string: 47.102.197.42:2181
