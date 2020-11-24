@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: cloud-order-service-consul
+  cloud:
+    consul:
+      host: 47.102.197.42
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: true
