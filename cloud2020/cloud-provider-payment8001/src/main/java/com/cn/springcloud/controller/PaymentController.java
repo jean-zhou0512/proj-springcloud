@@ -33,7 +33,7 @@ public class PaymentController {
         payment.setSerial(serial);
         int result = sysApi.createPayment(payment);
         if (result > 0 ){
-            return new CommonResult(result,"success serverPort:"+port);
+            return new CommonResult(result,200,"success serverPort:"+port);
         }else{
             return  new CommonResult(result,"error");
         }
@@ -50,7 +50,7 @@ public class PaymentController {
         }
     }
 
-    @RequestMapping(value="/service/getDiscovery")
+    @RequestMapping(value="ervice/createPayment")
     public Object getDiscovery(){
         List<String> services=discoveryClient.getServices();
 
