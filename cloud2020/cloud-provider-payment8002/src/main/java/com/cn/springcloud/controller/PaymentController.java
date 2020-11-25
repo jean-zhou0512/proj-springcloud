@@ -7,12 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 public class PaymentController {
@@ -39,10 +42,9 @@ public class PaymentController {
         }
     }
 
-    @RequestMapping(value="/service/qryPaymentById")
-    public CommonResult qryPaymentById(HttpServletRequest request){
-        String id = request.getParameter("id");
-        Payment payment = sysApi.qryPaymentById(Long.parseLong(id));
+    @GetMapping(value="/service/qryPaymentById/{id}")
+    public CommonResult qryPaymentById(@PathVariable("id")Long id){
+        Payment payment = sysApi.qryPaymentById(id);
         if(payment  != null){
             return new CommonResult(payment,200,"success serverPort: "+port);
         }else{
@@ -66,4 +68,18 @@ public class PaymentController {
         return this.discoveryClient;
     }
 
+    @RequestMapping(value="/service/payment/port")
+    public String paymentPort(){
+        return port;
+    }
+
+    @RequestMapping(value="/service/feign/timeout")
+    public String timeout(){
+        try{
+            TimeUnit.SECONDS.sleep(3);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return port;
+    }
 }
