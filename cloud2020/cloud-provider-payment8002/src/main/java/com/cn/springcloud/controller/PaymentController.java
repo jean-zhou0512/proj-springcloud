@@ -69,8 +69,9 @@ public class PaymentController {
     }
 
     @RequestMapping(value="/service/payment/port")
-    public String paymentPort(){
-        return port;
+    public String paymentPort(HttpServletRequest request){
+        String newHeader = request.getHeader("X-Request-red");
+        return port+"请求头X-Request-Id为:"+newHeader;
     }
 
     @RequestMapping(value="/service/feign/timeout")
