@@ -1,0 +1,39 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: payment_routh #路由的ID，没有固定规则但要求唯一，建议配合服务器名
+#          uri: http://localhost:8001 #匹配提供服务的路由的地址
+          uri: lb://CLOUD-PAYMENT-SERVICE
+          predicates:
+            - Path=/service/qryPaymentById/** #断言，路径想匹配的进行路由
+
+        - id: payments_routh2 #路由的ID，没有固定规则但要求唯一，建议配合服务器名
+#          uri: http://localhost:8001 #匹配提供服务的路由的地址
+          uri: lb://CLOUD-PAYMENT-SERVICE
+          predicates:
+            - Path=/service/payment/port/**
+#            - Between=2020-12-04T22:56:42.011+08:00[Asia/Shanghai],2020-12-06T22:56:42.011+08:00[Asia/Shanghai]
+#            - Cookie=username,zjm
+#            - Header=X-Request-Id, \d+ #请求头要有X-Request-Id属性并且值为整数的正则表达式
+#            - Host=**.atguigu.com  #curl -H "Host:www.atguigu.com" "http://localhost:5001/service/payment/port/"
+#            - Method=POST
+#            - Query=username, \d+ #要有参数名称并且是正整数才能路由
+          filters:
+#          - AddRequestParameter=X-Request-Id,1024 #过滤器工厂会在匹配的请求头加上一对请求头，名称为X-Request-Id值为1024
+          - AddRequestHeader=X-Request-red, blue
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名进行路由
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka/,http://localhost:7003/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: cloud-gateway-service
