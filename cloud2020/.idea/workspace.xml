@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59ac95e-30e5-4388-888c-3103b5fce262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/OrderFeignMain9004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/HystrixPaymentMain8007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/cn/springcloud/ConfigCenterMain3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/cn/springcloud/ConfigClient3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/cn/springcloud/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3356/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3356/src/main/java/com/cn/springcloud/ConfigClient3356.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3356/src/main/java/com/cn/springcloud/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3356/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3357/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/ConfigClient3357.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3357/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,6 +36,13 @@
     <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order9003/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order9004/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-gateway-gateway5001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-center-3344/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-client-3355/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-client-3356/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-client-3357/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,374 +74,80 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="51" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="51" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/config/FeignConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/OrderFeignMain9004.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/service/PaymentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/controller/OrderFrignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/OrderFeignMain9003.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/service/PaymentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/OrderMain80.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/lb/LoadBalancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/lb/MyLB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/myrule/MyRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" selection-start-line="7" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="76" column="27" selection-start-line="75" selection-start-column="4" selection-end-line="76" selection-end-column="27" />
-              <folding>
-                <element signature="e#2448#2449#0" expanded="true" />
-                <element signature="e#2475#2476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/api/SysApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/config/FeignConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cn/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="75" column="49" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="49" />
-              <folding>
-                <element signature="e#2453#2454#0" expanded="true" />
-                <element signature="e#2480#2481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/config/ApplicationContextConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/PaymentMain8004.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/HystrixPaymentMain8007.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/service/PaymentHystrixService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/controller/PaymentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/service/SysApiImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/pom.xml">
+              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="702">
+                  <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/src/main/resources/bootstrap.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cloud-config-client-3356/src/main/resources/bootstrap.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/ConfigClient3357.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="243">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#336#337#0" expanded="true" />
+                    <element signature="e#368#369#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/controller/ClientController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#411#412#0" expanded="true" />
+                    <element signature="e#439#440#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/cloud-config-client-3356/src/main/resources/bootstrap.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-54">
+                  <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -452,6 +166,8 @@
       <find>/service/qryPaymentById</find>
       <find>incrementAndGetModulo</find>
       <find>com.cn.springcloud.service.PaymentService</find>
+      <find>/service/client/getData</find>
+      <find>spring-cloud-starter-bus-amqp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -460,34 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/PayMentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/controller/dao/PaymentDao.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/PaymentMain8004.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9001/src/main/java/com/cn/springcloud/config/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9001/src/main/java/com/cn/springcloud/OrderZKMain9001.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9001/src/main/java/com/cn/springcloud/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8005/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8005/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/com/cn/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8005/src/main/java/com/cn/springcloud/PaymentMain8005.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8006/src/main/java/com/cn/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8006/src/main/java/com/cn/springcloud/PaymentMain8006.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8006/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8006/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9002/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9002/src/main/java/com/cn/springcloud/config/ApplicationContextConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9002/src/main/java/com/cn/springcloud/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order9002/src/main/java/com/cn/springcloud/OrderConsulMain9002.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/myrule/MyRule.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/lb/LoadBalancer.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/config/ApplicationContextConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/controller/CustomerController.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/lb/MyLB.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/OrderMain80.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-feign-order9003/pom.xml" />
@@ -506,19 +194,47 @@
         <option value="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/config/FeignConfig.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/service/PaymentService.java" />
         <option value="$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/HystrixPaymentMain8007.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/OrderHystrixMain9005.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/service/impl/PaymentFallbackService.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/controller/OrderHystrixController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/service/PaymentHystrixService.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/src/main/java/com/cn/springcloud/HystrixDashboardMain6001.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/HystrixPaymentMain8007.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/cn/springcloud/ConfigCenterMain3344.java" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstap.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/cn/springcloud/ConfigClient3355.java" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/cn/springcloud/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3356/src/main/java/com/cn/springcloud/ConfigClient3356.java" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3356/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3356/src/main/java/com/cn/springcloud/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3356/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3356/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3357/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3357/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/ConfigClient3357.java" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/controller/ClientController.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="F:\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -531,154 +247,16 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-eureka-server7002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-eureka-server7002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-context:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-commons:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.security:spring-security-rsa:1.0.9.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:2.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.security:spring-security-rsa:1.0.9.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.bouncycastle:bcpkix-jdk15on:1.64" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="commons-configuration:commons-configuration:1.8" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-x-discovery:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-x-discovery:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-recipes:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-x-discovery:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-recipes:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-framework:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-x-discovery:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-recipes:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-framework:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-client:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8004" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-zookeeper-discovery:2.2.3.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.curator:curator-x-discovery:4.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.codehaus.jackson:jackson-mapper-asl:1.9.13" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1909" />
-    <option name="width" value="1940" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1930" />
+    <option name="width" value="1920" />
     <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -694,6 +272,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -704,25 +283,33 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9003" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3356" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9003" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3356" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9003" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3356" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9003" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3356" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3356" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -730,75 +317,63 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -810,7 +385,7 @@
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -818,367 +393,33 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderController" type="1a9f42e2:ClassTreeNode" />
+              <item name="ClientController" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigClient3357" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderFeignMain9004" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-consumer-feign-order9004" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-client-3357" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="PaymentController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="PaymentHystrixService" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="HystrixPaymentMain8007" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment8007" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="SysApiImpl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="ribbon-loadbalancer-2.3.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
-              <item name="RoundRobinRule" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootApplication" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1192,13 +433,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606228435273" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstap.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.31108597" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -1232,13 +473,57 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.18930869" />
+    <option name="contentProportion" value="0.121689335" />
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixPaymentMain8007">
-    <configuration name="All in cloud-consumer-order80" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-order80" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+  <component name="RunManager" selected="Spring Boot.ConfigClient3357">
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-center-3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.ConfigClient3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3356" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3356" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.ConfigClient3356" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3357" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3357" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cn.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.ConfigClient3357" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1264,41 +549,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixPaymentMain8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-hystrix-payment8007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.HystrixPaymentMain8007" />
+    <configuration name="GateWayMain5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway5001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcoud.GateWayMain5001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFeignMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-feign-order9003" />
+    <configuration name="HystrixDashboardMain6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-hystrix-dashboard6001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cn.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.HystrixDashboardMain6001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsulMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.OrderConsulMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderFeignMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order9003" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.OrderFeignMain9003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFeignMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderFeignMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-feign-order9004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cn.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.OrderFeignMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderHystrixMain9005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-hystrix-order9005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.OrderHystrixMain9005" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1324,14 +618,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cn.springcloud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.springcloud.PaymentMain8002" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1357,22 +645,28 @@
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Spring Boot.PaymentMain8001" />
-      <item itemvalue="Spring Boot.PaymentMain8002" />
-      <item itemvalue="JUnit.All in cloud-consumer-order80" />
       <item itemvalue="Spring Boot.PaymentMain8004" />
-      <item itemvalue="Spring Boot.OrderFeignMain9003" />
       <item itemvalue="Spring Boot.OrderZKMain9001" />
-      <item itemvalue="Spring Boot.OrderFeignMain9004" />
       <item itemvalue="Spring Boot.PaymentMain8006" />
-      <item itemvalue="Spring Boot.HystrixPaymentMain8007" />
+      <item itemvalue="Spring Boot.OrderConsulMain9002" />
+      <item itemvalue="Spring Boot.PaymentMain8002" />
+      <item itemvalue="Spring Boot.GateWayMain5001" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain6001" />
+      <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+      <item itemvalue="Spring Boot.OrderFeignMain9003" />
+      <item itemvalue="Spring Boot.ConfigClient3355" />
+      <item itemvalue="Spring Boot.OrderFeignMain9004" />
+      <item itemvalue="Spring Boot.ConfigClient3356" />
+      <item itemvalue="Spring Boot.OrderHystrixMain9005" />
+      <item itemvalue="Spring Boot.ConfigClient3357" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HystrixPaymentMain8007" />
-        <item itemvalue="Spring Boot.OrderFeignMain9004" />
-        <item itemvalue="Spring Boot.OrderFeignMain9003" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
-        <item itemvalue="JUnit.All in cloud-consumer-order80" />
+        <item itemvalue="Spring Boot.ConfigClient3357" />
+        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+        <item itemvalue="Spring Boot.ConfigClient3356" />
+        <item itemvalue="Spring Boot.ConfigClient3355" />
+        <item itemvalue="Spring Boot.HystrixDashboardMain6001" />
       </list>
     </recent_temporary>
   </component>
@@ -1398,6 +692,10 @@
       <workItem from="1605594169325" duration="7482000" />
       <workItem from="1606187566654" duration="9888000" />
       <workItem from="1606220758992" duration="4009000" />
+      <workItem from="1606698903044" duration="19246000" />
+      <workItem from="1606784971599" duration="761000" />
+      <workItem from="1607308382646" duration="2777000" />
+      <workItem from="1607475835651" duration="13811000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1605432166895</created>
@@ -1413,16 +711,23 @@
       <option name="project" value="LOCAL" />
       <updated>1606304128876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add">
+      <created>1606725786655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606725786655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101186000" />
+    <option name="totallyTimeSpent" value="144167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="7" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15580286" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23608904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -1438,9 +743,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49918962" weight="0.3298639" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49918962" weight="0.32932693" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009276" side_tool="true" weight="0.38670936" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.15286624" />
       <window_info anchor="bottom" id="Tail" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
@@ -1451,11 +756,11 @@
       <window_info anchor="bottom" id="Messages" order="17" weight="0.10737179" />
       <window_info anchor="bottom" id="Problems" order="18" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" weight="0.329718" />
-      <window_info active="true" anchor="bottom" x="22" y="528" width="2516" height="345" id="Run Dashboard" order="20" visible="true" weight="0.21894905" />
+      <window_info active="true" anchor="bottom" x="22" y="528" width="2516" height="345" id="Run Dashboard" order="20" sideWeight="0.49920508" visible="true" weight="0.3375796" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.4971335" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3165992" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -1464,7 +769,7 @@
       <window_info anchor="right" id="Database" order="9" weight="0.3296" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="12" weight="0.18402226" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="12" visible="true" weight="0.026232114" />
       <window_info anchor="right" id="RestServices" order="13" />
       <window_info anchor="right" id="Maven Projects" order="14" weight="0.29866666" />
       <window_info anchor="right" id="Bean Validation" order="15" />
@@ -1477,262 +782,69 @@
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/cn/springcloud/EurekaMain7002.java</url>
-          <line>6</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9001/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="59" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9002/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9002/src/main/java/com/cn/springcloud/config/ApplicationContextConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9001/src/main/java/com/cn/springcloud/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9002/src/main/java/com/cn/springcloud/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9002/src/main/java/com/cn/springcloud/OrderConsulMain9002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8006/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="18" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8006/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8006/src/main/java/com/cn/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="50" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8006/src/main/java/com/cn/springcloud/PaymentMain8006.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="1377">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="31" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/OrderFeignMain9004.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="189">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/PaymentMain8001.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/service/PaymentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="59" />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order9001/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/controller/OrderFrignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/myrule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.3.RELEASE/spring-boot-autoconfigure-2.3.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven-3.5.4/repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="103" column="53" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="53" />
-          <folding>
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/lb/LoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/lb/MyLB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/OrderMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/myrule/MyRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/config/ApplicationContextConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/cn/springcloud/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="513">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1741,51 +853,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/OrderFeignMain9003.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="189">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cn/springcloud/controller/PaymentController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/service/PaymentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="75" column="49" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="49" />
-          <folding>
-            <element signature="e#2453#2454#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/controller/OrderFrignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="297">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/config/FeignConfig.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1798,117 +887,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="189">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/java/com/cn/springcloud/service/PaymentService.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cn/springcloud/controller/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="51" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="76" column="27" selection-start-line="75" selection-start-column="4" selection-end-line="76" selection-end-column="27" />
-          <folding>
-            <element signature="e#2448#2449#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/config/FeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-order9004/src/main/java/com/cn/springcloud/OrderFeignMain9004.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1647">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/cn/springcloud/PaymentMain8004.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="135">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1921,8 +919,148 @@
     <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="945">
+          <caret line="35" column="21" selection-start-line="32" selection-start-column="6" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/HystrixPaymentMain8007.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/service/PaymentHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/OrderHystrixMain9005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/controller/OrderHystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order9005/src/main/java/com/cn/springcloud/service/impl/PaymentFallbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/src/main/java/com/cn/springcloud/HystrixDashboardMain6001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard6001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/cn/springcloud/EurekaMain7002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1933,54 +1071,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/HystrixPaymentMain8007.java">
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway5001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        <state relative-caret-position="13">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/cn/springcloud/ConfigCenterMain3344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="162">
+          <caret line="6" column="7" lean-forward="true" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cn/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="77" column="27" selection-start-line="76" selection-start-column="4" selection-end-line="77" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway5001/src/main/java/com/cn/springcoud/GateWayMain5001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway5001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/controller/PaymentController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="459">
+          <caret line="17" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/cn/springcloud/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8007/src/main/java/com/cn/springcloud/service/PaymentHystrixService.java">
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/cn/springcloud/ConfigClient3355.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3356/src/main/java/com/cn/springcloud/ConfigClient3356.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3356/src/main/java/com/cn/springcloud/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3356/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3356/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-client-3357/src/main/java/com/cn/springcloud/ConfigClient3357.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2037,12 +1300,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-consumer-feign-order9004</last-edited>
+          <last-edited>Spring|cloud-config-client-3355</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.31108597" />
               </list>
             </option>
           </splitter-proportions>
