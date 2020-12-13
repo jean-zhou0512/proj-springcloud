@@ -12,7 +12,7 @@ spring:
           ###搜索目录
           label: master
   rabbitmq:
-    host: localhost
+    host: 47.102.197.42
     port: 5672
     username: guest
     password: guest

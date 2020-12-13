@@ -11,7 +11,7 @@ spring:
       name: config-info
       profile: test
   rabbitmq:
-    host: localhost
+    host: 47.102.197.42
     port: 5672
     username: guest
     password: guest

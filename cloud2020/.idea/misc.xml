@@ -6,6 +6,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway-gateway5001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3357/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3356/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
