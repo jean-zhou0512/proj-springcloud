@@ -29,6 +29,7 @@
         <module name="cloud-provider-payment8006" />
         <module name="cloud-steam-rabbitmq-provider8801" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
       </profile>
     </annotationProcessing>
   </component>
