@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 8009
 spring:
   application:
     name: cloud-payment-service
@@ -20,5 +20,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka,http://localhost:7003/eureka
   instance:
-    instance-id: payment8002
+    instance-id: payment8009
     prefer-ip-address: true

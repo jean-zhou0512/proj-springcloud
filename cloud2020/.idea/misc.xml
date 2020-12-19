@@ -14,8 +14,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-order9006/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8005/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8007/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-steam-rabbitmq-customer8003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud.provider-payment8009/pom.xml" />
       </set>
     </option>
   </component>
