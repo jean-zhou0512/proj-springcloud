@@ -32,6 +32,10 @@
         <module name="cloud-steam-rabbitmq-provider8801" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloudalibaba-config-nacos-clent3358" />
+        <module name="cloudalibaba-consumer-nacos-order9007" />
+        <module name="cloudalibaba-provider-payment4001" />
+        <module name="cloudalibaba-provider-payment4002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -62,6 +66,10 @@
       <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
       <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
       <module name="cloud2020" target="1.8" />
+      <module name="cloudalibaba-config-nacos-clent3358" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order9007" target="1.8" />
+      <module name="cloudalibaba-provider-payment4001" target="1.8" />
+      <module name="cloudalibaba-provider-payment4002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

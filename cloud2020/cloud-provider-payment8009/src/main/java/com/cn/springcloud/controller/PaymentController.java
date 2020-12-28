@@ -44,4 +44,9 @@ public class PaymentController {
             return new CommonResult(null,400,"error");
         }
     }
+
+    @GetMapping(value="/service/payment/zipkin")
+    public String paymentZipkin(){
+        return "paymentZipkin server fall back,welcome to blog";
+    }
 }

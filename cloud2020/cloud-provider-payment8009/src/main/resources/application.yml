@@ -1,13 +1,19 @@
 server:
-port: 8009
+  port: 8009
 spring:
   application:
     name: cloud-payment-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.102.197.42:3306/cloud1
+    url: jdbc:mysql:/47.102.197.42/:3306/cloud1
     username: root
     password: 123456
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
@@ -22,3 +28,6 @@ eureka:
   instance:
     instance-id: payment8009
     prefer-ip-address: true
+
+
+
