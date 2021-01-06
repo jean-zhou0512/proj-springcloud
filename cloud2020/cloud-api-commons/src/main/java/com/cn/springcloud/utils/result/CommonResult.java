@@ -9,7 +9,7 @@ public class CommonResult<T>{
     }
 
     public CommonResult(int code, String message) {
-        this.data = data;
+        this.message = message;
         this.code = code;
     }
 
