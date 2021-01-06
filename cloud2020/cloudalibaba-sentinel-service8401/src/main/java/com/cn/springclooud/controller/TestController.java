@@ -51,8 +51,8 @@ public class TestController {
     @RequestMapping("/service/test/testHotKey")
     @SentinelResource(value = "testHotKey",blockHandler = "deal_testHotKey")
     public String testHotKey(
-          @RequestParam(value = "p1",required = false) String p1,
-          @RequestParam(value = "p2",required = false)String p2
+            @RequestParam(value = "p1",required = false) String p1,
+            @RequestParam(value = "p2",required = false)String p2
     ){
         return  "......testF";
     }

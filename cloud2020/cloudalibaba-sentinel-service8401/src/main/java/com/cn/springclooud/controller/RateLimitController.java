@@ -7,6 +7,7 @@ import com.cn.springcloud.entities.Payment;
 import com.cn.springcloud.utils.result.CommonResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.cn.springclooud.myhandle.CustomerBlockHandler;
 
 @RestController
 public class RateLimitController {
@@ -31,5 +32,14 @@ public class RateLimitController {
         payment.setId(2021L);
         payment.setSerial("sreial002");
         return new CommonResult(payment,200,"按url限流测试成功");
+    }
+
+    @RequestMapping("/service/rate/customerBlockHandler")
+    @SentinelResource(value = "customerBlockHandler" , blockHandlerClass = CustomerBlockHandler.class,blockHandler = "customerBlockHandler2")
+    public CommonResult customerBlockHandler(){
+        Payment payment = new Payment();
+        payment.setId(2021L);
+        payment.setSerial("sreial003");
+        return new CommonResult(payment,200,"客户自定义");
     }
 }
