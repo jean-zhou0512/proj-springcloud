@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.springcloud.dao.PaymentDao">
+    <insert id="createPayment" parameterType="com.cn.springcloud.entities.Payment" keyProperty="id" useGeneratedKeys="true">
+        insert into payment(serial) value(#{serial})
+    </insert>
+
+    <resultMap id="BaseResultMap" type="com.cn.springcloud.entities.Payment">
+        <id column="id" property="id" javaType="java.lang.Long"/>
+        <id column="serial" property="serial" javaType="java.lang.String"/>
+    </resultMap>
+
+    <select id="qryPaymentById" parameterType="Long" resultMap="BaseResultMap">
+        select * from payment where id=#{id}
+    </select>
+</mapper>

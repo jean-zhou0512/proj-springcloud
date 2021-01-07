@@ -1,0 +1,24 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: consumer-nacos-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+    sentinel:
+      transport:
+        dashboard: http://localhost:8858
+        port: 8719 #默认8719，假如被占用了会自动从8719开始依次+1扫描。直至找到未被占用的端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server-url:
+  provider-service: http://provider-payment-nacos
+feign:
+  sentinel:
+    enabled: true

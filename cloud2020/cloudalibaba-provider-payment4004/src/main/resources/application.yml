@@ -1,0 +1,22 @@
+server:
+  port: 4004
+spring:
+  application:
+    name: provider-payment-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://localhost:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.102.197.42:3306/cloud1
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: com.cn.springcloud.entities  #所有Entity别名类所在包
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
