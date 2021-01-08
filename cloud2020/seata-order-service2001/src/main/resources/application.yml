@@ -36,7 +36,8 @@ spring:
     url: jdbc:mysql://47.102.197.42:3306/seata_order
     username: root
     password: 123456
-#  cloud:
+    type: com.alibaba.druid.pool.DruidDataSource
+  cloud:
 #    alibaba:
 #      seata:
 #        #自定义事务组名称需要与seata-server中的对应
