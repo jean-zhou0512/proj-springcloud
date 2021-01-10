@@ -17,11 +17,15 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
         <!--seata-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
-           <!-- <exclusions>
+            <!--<exclusions>
                 <exclusion>
                     <artifactId>seata-all</artifactId>
                     <groupId>io.seata</groupId>
@@ -29,12 +33,11 @@
             </exclusions>-->
         </dependency>
 
-      <!--  <dependency>
+       <!-- <dependency>
             <groupId>io.seata</groupId>
             <artifactId>seata-all</artifactId>
             <version>1.4.0</version>
-        </dependency>
--->
+        </dependency>-->
         <!--feign-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
