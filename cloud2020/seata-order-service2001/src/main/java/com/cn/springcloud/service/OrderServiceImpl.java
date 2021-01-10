@@ -3,6 +3,7 @@ package com.cn.springcloud.service;
 import com.cn.springcloud.api.IOrderApi;
 import com.cn.springcloud.dao.OrderDao;
 import com.cn.springcloud.entities.Order;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,6 +22,7 @@ public class OrderServiceImpl implements IOrderApi {
      * 创建订单->调用库存服务扣减库存->调用账户服务扣减账户余额->修改订单状态
      */
     @Override
+    @GlobalTransactional
     public void create(Order order) {
         //新建订单
         orderDao.createOrder(order);
