@@ -1,0 +1,88 @@
+#
+#seata:
+#  enabled: true
+#  enable-auto-data-source-proxy: true
+#  tx-service-group: my_test_tx_group
+#  registry:
+#    type: nacos
+#    nacos:
+#      application: seata-server
+#      server-addr: 127.0.0.1:8848
+#      username: nacos
+#      password: nacos
+#  config:
+#    type: nacos
+#    nacos:
+#      server-addr: 127.0.0.1:8848
+#      group: SEATA_GROUP
+#      username: nacos
+#      password: nacos
+#      namespace: 2bcc8fbf-64e4-4263-8dbe-5ea62bc56898
+#  service:
+#    vgroup-mapping:
+#      my_test_tx_group: default
+#    disable-global-transaction: false
+#  client:
+#    rm:
+#      report-success-enable: false
+#
+#server:
+#  port: 2001
+#spring:
+#  application:
+#    name: seata-order-service
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://47.102.197.42:3306/seata_order
+#    username: root
+#    password: 123456
+#    type: com.alibaba.druid.pool.DruidDataSource
+#  cloud:
+##    alibaba:
+##      seata:
+##        #自定义事务组名称需要与seata-server中的对应
+##        tx-service-group: my_test_tx_group
+#    nacos:
+#      discovery:
+#        server-addr: http://localhost:8848
+#mybatis:
+#  mapper-locations: classpath:mybatis/*.xml
+#  type-aliases-package: com.cn.springcloud.entities  #所有Entity别名类所在包
+#
+#feign:
+#  hystrix:
+#    enabled: false
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url:  jdbc:mysql://47.102.197.42:3306/seata_account?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+seata:
+  enabled: true
+  application-id: seata-account-service
+  tx-service-group: my_test_tx_group
+  config:
+    type: nacos
+    nacos:
+      namespace: 2bcc8fbf-64e4-4263-8dbe-5ea62bc56898
+      server-addr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      username: "nacos"
+      password: "nacos"
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      namespace:
+      username: "nacos"
+      password: "nacos"
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  type-aliases-package: com.cn.springcloud.entities
+feign:
+  hystrix:
+    enabled: false
